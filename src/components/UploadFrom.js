@@ -17,7 +17,6 @@ const UploadFrom = () => {
         }else {
             setFile(null);
             setError('Please select an image file (png or jpeg)')
-            console.log('error')
         }
     }
 
